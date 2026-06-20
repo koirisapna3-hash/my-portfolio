@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects — My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">Sapna<span>.</span>Dev</div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About Me</a></li>
+        <li><a href="knowledge.html" class="nav-link">Knowledge</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="page active" id="page-projects">
+      <div class="section">
+        <span class="section-label">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-divider"></div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-thumb">
+              <img src="image/amazon.jpg" alt="amazon-clone" />
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+              <h3>Amazon - clone</h3>
+              <p>
+                A simple Amazon clone creating with multiple products cards.
+              </p>
+              <div class="project-links">
+                <a href="https://koirisapna3-hash.github.io/project1/">
+                  Live Demo ↗
+                </a>
+
+                <a
+                  href="https://github.com/koirisapna3-hash/project1"
+                  onclick="return true;"
+                  >GitHub ↗</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb">
+              <img src="image/giva.png" alt="giva - clone" />
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Javascript</span>
+              </div>
+              <h3>GIVA Jewelry -Clone</h3>
+              <p>
+                A beautiful, responsive e-commerce front-end replica showcasing
+                premium jewelry with smooth category filtering and an
+                interactive cart system.
+              </p>
+              <div class="project-links">
+                <div class="project-links">
+                  <a href="https://koirisapna3-hash.github.io/giva-clone/">
+                    Live Demo ↗
+                  </a>
+
+                  <a href="https://github.com/koirisapna3-hash/giva-clone">
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>&copy; 2026 <span>Sapna Koiri</span>. Built with care.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

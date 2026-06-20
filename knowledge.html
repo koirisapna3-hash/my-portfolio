@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Knowledge — My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">Sapna<span>.</span>Dev</div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About Me</a></li>
+        <li><a href="knowledge.html" class="nav-link">Knowledge</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="page active" id="page-knowledge">
+      <div class="section">
+        <span class="section-label">Skills & Expertise</span>
+        <h2 class="section-title">My Knowledge</h2>
+        <div class="section-divider"></div>
+
+        <div class="knowledge-wrapper">
+          <h3>Technical Skills</h3>
+          <div class="skills-list" id="skills-list">
+            <div class="skill-item">
+              <label>HTML <span>Advanced</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <label>CSS <span>Intermediate</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="60"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <label>JavaScript <span>Intermediate</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="60"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <label>Vue.js <span>Basic</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="45"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <label>C<span>Intermediate</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="60"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <label>C++<span>Basic</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="45"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <label> DSA Using C<span>Basic</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="45"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <label>C#<span>Intermediate</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="60"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <label>SQL / MySQL <span>Intermediate</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="60"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <label>Git & GitHub <span>Basic</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="45"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <label>Java (OOP) <span>Intermediate</span></label>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="60"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="knowledge-wrapper">
+          <h3>Tools & Technologies</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px">
+            <span class="tag">VS Code</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">Chatgpt</span>
+            <span class="tag">Claude</span>
+            <span class="tag">Gemini</span>
+            <span class="tag">Pexels</span>
+            <span class="tag">Fontawesome</span>
+            <span class="tag">Vue.js</span>
+            <span class="tag">Mysql</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Tailwind CSS</span>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>&copy; 2026 <span>Sapna Koiri</span>. Built with care.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      // Trigger progress animations on isolated page entry
+      if (typeof animateSkills === "function") {
+        animateSkills();
+      }
+    </script>
+  </body>
+</html>

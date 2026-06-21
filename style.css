@@ -434,12 +434,19 @@ nav {
    PROJECTS GRID
 ========================== */
 
+
 .projects-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(360px,1fr));
     gap:30px;
     margin-top:90px;
+    margin-bottom: 15%;
+   
+    
 }
+/* .projects-section{
+    
+} */
 
 /* ==========================
    PROJECT CARD
